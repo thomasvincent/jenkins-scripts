@@ -1,8 +1,1 @@
-version: 2
-updates:
-  - package-ecosystem: "gradle"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "*"
+version: 2\nupdates:\n - package-ecosystem: "github-actions"\n   directory: "/"\n   schedule:\n     interval: "weekly"\n
